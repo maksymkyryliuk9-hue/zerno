@@ -1,0 +1,18 @@
+# Zerno — coffee roaster & café, Kazan
+
+A single-page site with all fonts, images and scripts bundled into `index.html`. It has no build step and no dependencies.
+
+## Language
+
+The site opens in **English** by default. Russian is still built in.
+
+| How | English | Russian |
+|---|---|---|
+| Design tweak (Tweaks panel → *Language*) | `English` (default) | `Русский` |
+| URL parameter (overrides the tweak) | `?lang=en` | `?lang=ru` |
+
+Both languages use the same fonts (Cormorant Garamond for headings, Manrope for body text) and the same layout. Only the text changes. The page also sets `<html lang>` and the browser tab title to match.
+
+## Deploy (Vercel)
+
+Import this repo in Vercel and set **Root Directory** to `zerno`. Use the "Other" preset and leave the build command empty. `index.html` is served as is.

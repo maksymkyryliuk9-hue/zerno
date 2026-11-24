@@ -15,4 +15,4 @@ Both languages use the same fonts (Cormorant Garamond for headings, Manrope for 
 
 ## Deploy (Vercel)
 
-Import this repo in Vercel and set **Root Directory** to `zerno`. Use the "Other" preset and leave the build command empty. `index.html` is served as is.
+The repo is connected to the Vercel project `zerno`; every push to `main` deploys to production. The root `vercel.json` serves `zerno/index.html` at `/`, so no Root Directory or build settings are needed.
